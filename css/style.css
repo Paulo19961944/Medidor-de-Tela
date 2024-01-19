@@ -11,22 +11,21 @@ body{
 }
 
 main{
-    height: 80%;
     border: 2px solid black;
     background: #efefef;
     color: #404040;
-    padding: 0px 100px;
+    padding: 100px;
     border-radius: 16px;
 }
 
 h1{
+    margin: 0;
     font-family: "Sofia", cursive;
     font-weight: 400;
     font-size: 42px;
 }
 
 p{
-    margin-top: 120px;
     color: black;
     font-size: 36px;
     font-family: "Noto Sans", sans-serif;
@@ -34,9 +33,12 @@ p{
     text-align: center;
 }
 
+
 @media screen and (max-width: 722px) {
     main{
         width: 40%;
+        height: 40%;
+        padding: 60px;
     }   
 
     h1{
@@ -44,12 +46,18 @@ p{
     }
 
     p{
-        margin-top: 80px;
+        margin-top: 30px;
         font-size: 28px;
     }
+
 }
 
 @media screen and (max-width: 472px) {
+
+    main{
+        height: 30%;
+    }
+
     h1{
         font-size: 24px;
     }
